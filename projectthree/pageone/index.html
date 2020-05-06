@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Parallax.js</title>
+	<link rel="stylesheet" href="style.css">
+<script src="parallax.js"></script>
+</head>
+<body>
+	<div class="container">
+		<ul id="scene">
+			<li class="layer" data-depth=".1">
+                <img src="images/hence.png">
+            </li>
+			<li class="layer" data-depth="1">
+                <img src="images/crit.png">
+            </li>
+			<li class="layer" data-depth="-1">
+                <img src="images/is.png">
+            </li>
+			<li class="layer" data-depth="2">
+                <img src="images/useless.png">
+            </li>
+			<li class="layer" data-depth="0.5">
+                <img src="images/it.png">
+            </li>
+            <li class="layer" data-depth="0.5">
+                <img src="images/exists.png">
+            </li>
+            <li class="layer" data-depth="0.5">
+                <img src="images/only">
+            </li>
+            <li class="layer" data-depth="1">
+                <img src="images/subjectively.png">
+            </li>
+		</ul>
+    </div>
+    <div id="mybutton">
+        <button class="continue"><a href="pagetwo/index.html">NEXT</a></button>
+    </div>
+	<script>
+		var scene = document.getElementById('scene');
+		var parallax = new Parallax(scene);
+	</script>
+</body>
+</html>
