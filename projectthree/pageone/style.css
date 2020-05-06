@@ -1,0 +1,32 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+.container
+{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	background: url(images/cutwithknife.jfif);
+    background-size: 100;
+	background-attachment: fixed;
+}
+.layer{
+    position: inherit;
+}
+.mixBlnd
+{
+	background-blend-mode: screen;
+}
+.continue {
+    background-color:crimson;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+#mybutton{
+    position: fixed;
+    bottom: -4px;
+    right: 10px;
+}
